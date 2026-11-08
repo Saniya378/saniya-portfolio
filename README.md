@@ -103,3 +103,4 @@ git push -u origin main
 ## ✏️ How to Customize Later
 - **To update CV**: Replace `assets/Saniya_Zahra_CV.pdf` with your updated PDF keeping the same filename.
 - **To add new projects**: Duplicate any `<div class="project-card ...">` block in `index.html` and update the title, description, and GitHub URL.
+
