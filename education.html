@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education & Credentials | Saniya Zahra</title>
+  <meta name="description" content="Saniya Zahra's academic background, certifications, and professional experience — BS IT from KIU, British Council Web Dev, MERN Stack, and more.">
+  <meta name="keywords" content="Saniya Zahra, Education, KIU, Karakoram International University, Certifications, British Council, MERN Stack, Gilgit">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fbf8f5',
+              100: '#f6efe7',
+              200: '#eedfce',
+              300: '#e1cbaf',
+              400: '#d1b28d',
+              500: '#b88f65',
+              600: '#9b7147',
+              700: '#7c5432',
+              800: '#5e3d23',
+              900: '#3d2616',
+              950: '#26160c',
+            },
+            accent: {
+              300: '#ebd1b5',
+              400: '#deb892',
+              500: '#c89664',
+              600: '#a87342',
+              700: '#86542b',
+            },
+            warmdark: {
+              950: '#20130b',
+              900: '#2b1b11',
+              850: '#382418',
+              800: '#483022',
+              700: '#5c3f2d',
+              600: '#74513b',
+              500: '#8f654b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#f8f4ee] text-[#463327] antialiased selection:bg-[#a3653b] selection:text-white relative overflow-x-hidden min-h-screen">
+
+  <!-- Scroll Progress Bar -->
+  <div id="scrollProgressBar" class="fixed top-0 left-0 h-1 bg-gradient-to-r from-[#c07a3e] via-[#e5ba73] to-[#9c5b2a] z-[100] transition-all duration-75" style="width: 0%"></div>
+
+  <!-- Ambient Glow Backgrounds -->
+  <div class="fixed top-0 left-1/4 w-96 h-96 bg-[#d99b61]/25 rounded-full blur-3xl pointer-events-none -z-10"></div>
+  <div class="fixed top-1/3 right-10 w-80 h-80 bg-[#f3c68f]/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+  <div class="fixed bottom-10 left-10 w-96 h-96 bg-[#eddccb] rounded-full blur-3xl pointer-events-none -z-10"></div>
+
+  <!-- Background Grid Pattern -->
+  <div class="fixed inset-0 bg-grid-pattern opacity-40 pointer-events-none -z-10"></div>
+
+  <!-- Announcement / Availability Banner -->
+  <div class="bg-gradient-to-r from-[#ebdcca] via-[#f5e9dc] to-[#ebdcca] border-b border-[#dac5b0] py-2 text-xs md:text-sm text-center font-medium text-[#543b2b]">
+    <div class="container mx-auto px-4 flex items-center justify-center gap-2">
+      <span class="relative flex h-2 w-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+      </span>
+      <span>Actively looking for <strong class="text-[#9c5725]">Junior Web / Mobile Developer Roles</strong> &amp; <strong class="text-[#9c5725]">Internships</strong></span>
+      <a href="contact.html" class="underline hover:text-accent-400 ml-1 font-semibold text-[#8a471b]">Get in touch &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav id="navbar" class="sticky top-0 z-50 transition-all duration-300 py-4 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+      <!-- Logo with Profile Picture -->
+      <a href="index.html" class="flex items-center gap-2.5 group">
+        <div class="relative">
+          <img src="assets/profile.jpg" alt="Saniya Zahra" class="w-10 h-10 rounded-xl object-cover border-2 border-[#b87333] shadow-md shadow-[#9b5826]/20 group-hover:scale-105 transition-transform">
+          <span class="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-green-500 rounded-full border-2 border-[#f8f4ee]" title="Available for hire"></span>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-bold text-lg text-[#2a1a10] tracking-tight group-hover:text-[#9c5725] transition-colors">
+            Saniya Zahra
+          </span>
+          <span class="text-xs text-[#8a471b] font-mono -mt-1">Full-Stack &amp; Flutter</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <div class="hidden md:flex items-center gap-1 lg:gap-2 bg-[#fbf7f2]/90 border border-[#decab6] rounded-full px-5 py-2 backdrop-blur-md shadow-sm shadow-[#503422]/10">
+        <a href="index.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">Home</a>
+        <a href="about.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">About</a>
+        <a href="skills.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">Skills</a>
+        <a href="projects.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">Projects</a>
+        <a href="education.html" class="px-3 py-1.5 text-sm text-[#2a1a10] bg-[#e3d1be] rounded-full font-semibold transition-all">Education</a>
+        <a href="contact.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">Contact</a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="assets/Saniya_Zahra_CV.pdf" download="Saniya_Zahra_CV.pdf" class="px-3.5 py-2 rounded-xl text-xs font-semibold text-[#3d2c22] border border-[#dac5b0] hover:border-[#965527] hover:text-[#965527] bg-[#fbf7f2] transition-all flex items-center gap-1.5">
+          <i data-lucide="download" class="w-4 h-4 text-[#8a471b]"></i>
+          CV
+        </a>
+        <a href="contact.html" class="px-4 py-2 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-[#9b5826] to-[#b57238] hover:brightness-110 shadow-md shadow-[#9b5826]/20 transition-all flex items-center gap-2">
+          <i data-lucide="mail" class="w-4 h-4"></i>
+          Hire Me
+        </a>
+        <a href="https://github.com/Saniya378" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-[#fbf7f2] text-[#5e4536] hover:text-[#2a1a10] hover:bg-[#ebdcca] transition-all border border-[#dac5b0]" title="GitHub Profile">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="mobileMenuBtn" class="md:hidden p-2.5 rounded-xl bg-[#fbf7f2] border border-[#dac5b0] text-[#5e4536] hover:text-[#2a1a10] focus:outline-none">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden md:hidden mt-3 mx-4 p-4 rounded-2xl bg-[#fbf7f2]/98 border border-[#decab6] backdrop-blur-xl shadow-2xl flex flex-col gap-2">
+      <a href="index.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">Home</a>
+      <a href="about.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">About</a>
+      <a href="skills.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">Skills</a>
+      <a href="projects.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">Projects</a>
+      <a href="education.html" class="mobile-nav-link py-2 px-3 text-[#2a1a10] font-semibold bg-[#e3d1be] rounded-lg">Education</a>
+      <a href="contact.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">Contact</a>
+      <hr class="border-[#decab6] my-1">
+      <div class="flex gap-2 pt-1">
+        <a href="contact.html" class="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-[#9b5826] to-[#b57238] text-white font-bold text-sm">
+          Hire Me
+        </a>
+        <a href="https://github.com/Saniya378" target="_blank" class="p-2.5 rounded-xl bg-[#fbf7f2] text-[#2a1a10] flex items-center justify-center border border-[#dac5b0]">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero Header -->
+  <header class="relative pt-14 pb-16 md:pt-20 md:pb-20 overflow-hidden border-b border-[#decab6]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 text-center">
+      <!-- Label -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#eddccb] border border-[#d9c4af] text-[#8b4a1b] text-xs sm:text-sm font-medium mb-5">
+        <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+        Academic Journey &amp; Professional Credentials
+      </div>
+      <!-- Heading -->
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#2a1a10] leading-tight mb-4">
+        Education &amp; <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#9e5b29] via-[#b87333] to-[#7d441a]">Credentials</span>
+      </h1>
+      <p class="text-[#543e32] text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        A continuous pursuit of knowledge — from formal academics at KIU to hands-on professional certifications and real-world teaching experience.
+      </p>
+      <!-- Breadcrumb -->
+      <div class="mt-6 flex items-center justify-center gap-2 text-xs text-[#7d6556] font-mono">
+        <a href="index.html" class="hover:text-[#9c5725] transition-colors">Home</a>
+        <i data-lucide="chevron-right" class="w-3 h-3"></i>
+        <span class="text-[#9c5725] font-semibold">Education</span>
+      </div>
+    </div>
+
+    <!-- Decorative glow behind heading -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[200px] bg-[#b97e51]/8 rounded-full blur-3xl pointer-events-none"></div>
+  </header>
+
+  <!-- ======================================================
+       SECTION 1: Education Timeline
+  ====================================================== -->
+  <section class="py-20 border-b border-[#decab6]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+
+      <!-- Section Header -->
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-[#8a471b] font-mono text-sm tracking-wider uppercase font-semibold">Formal Academics</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-[#2a1a10] mt-2">Education Timeline</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-[#9b5826] to-[#c88647] mx-auto mt-4 rounded-full"></div>
+        <p class="text-[#6e5343] text-sm mt-3">From secondary school through a full Bachelor's degree in Information Technology.</p>
+      </div>
+
+      <!-- Timeline -->
+      <div class="relative max-w-3xl mx-auto">
+        <!-- Vertical Line -->
+        <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#c07a3e] via-[#b97e51] to-[#4a3627] md:-translate-x-1/2"></div>
+
+        <!-- ---- Entry 1: BS IT ---- -->
+        <div class="relative flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-0 mb-12 group">
+          <!-- Timeline dot -->
+          <div class="absolute left-6 md:left-1/2 top-6 md:top-1/2 w-5 h-5 rounded-full bg-gradient-to-br from-[#f3c68f] to-[#c07a3e] border-4 border-[#f8f4ee] -translate-x-1/2 md:-translate-x-1/2 md:-translate-y-1/2 z-10 shadow-lg shadow-[#b97e51]/40 group-hover:scale-125 transition-transform"></div>
+
+          <!-- Spacer for desktop left side -->
+          <div class="hidden md:block md:w-1/2 md:pr-10 md:text-right">
+            <span class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#9c5725] bg-[#eddccb] border border-[#d9c4af] px-3 py-1 rounded-full">
+              <i data-lucide="calendar" class="w-3 h-3"></i>
+              2022 &ndash; 2026
+            </span>
+          </div>
+
+          <!-- Card -->
+          <div class="pl-14 md:pl-0 md:w-1/2 md:pl-10 w-full">
+            <div class="glass-card p-6 rounded-2xl border-l-4 border-l-[#c07a3e] hover:border-l-[#f3c68f] transition-colors">
+              <!-- Mobile date badge -->
+              <div class="flex items-center justify-between flex-wrap gap-2 mb-3 md:hidden">
+                <span class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#9c5725] bg-[#eddccb] border border-[#d9c4af] px-3 py-1 rounded-full">
+                  <i data-lucide="calendar" class="w-3 h-3"></i>
+                  2022 &ndash; 2026
+                </span>
+                <span class="text-xs px-2 py-0.5 rounded-md bg-[#eddccb] text-[#9c5725] border border-[#c07a3e]/30 font-semibold">Current</span>
+              </div>
+              <div class="hidden md:block mb-2">
+                <span class="text-xs px-2 py-0.5 rounded-md bg-[#eddccb] text-[#9c5725] border border-[#c07a3e]/30 font-semibold">Current</span>
+              </div>
+              <div class="flex items-start gap-3 mb-3">
+                <div class="p-2.5 rounded-xl bg-[#eddccb] text-[#9c5725] border border-[#d9c4af] shrink-0 mt-0.5">
+                  <i data-lucide="book-open" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-[#2a1a10]">BS Information Technology</h3>
+                  <p class="text-sm text-[#9c5725] font-medium">Karakoram International University (KIU), Gilgit</p>
+                </div>
+              </div>
+              <p class="text-sm text-[#543e32] leading-relaxed mb-4">
+                Rigorous four-year programme with a strong focus on <strong class="text-[#2a1a10]">software engineering</strong>, <strong class="text-[#2a1a10]">database systems</strong>, object-oriented programming, data structures &amp; algorithms, and computer networks.
+              </p>
+              <!-- Highlights -->
+              <div class="space-y-2 text-xs text-[#6e5343]">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Core: OOP, Data Structures, Database Systems, Computer Networks</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Software Engineering principles &amp; agile development practices</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="sparkles" class="w-3.5 h-3.5 text-[#e5ba73] shrink-0"></i>
+                  <span><strong class="text-[#9c5725]">Final Year Project:</strong> Book My Beauty — AI-powered salon booking platform (Laravel + Gemini AI)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---- Entry 2: FSc ---- -->
+        <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center gap-6 md:gap-0 mb-12 group">
+          <!-- Timeline dot -->
+          <div class="absolute left-6 md:left-1/2 top-6 md:top-1/2 w-5 h-5 rounded-full bg-gradient-to-br from-[#cba07c] to-[#844e2d] border-4 border-[#f8f4ee] -translate-x-1/2 md:-translate-x-1/2 md:-translate-y-1/2 z-10 shadow-md group-hover:scale-125 transition-transform"></div>
+
+          <!-- Spacer for desktop right side -->
+          <div class="hidden md:block md:w-1/2 md:pl-10 md:text-left">
+            <span class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#7d6556] bg-[#f4eae0] border border-[#decab6] px-3 py-1 rounded-full">
+              <i data-lucide="calendar" class="w-3 h-3"></i>
+              Completed 2022
+            </span>
+          </div>
+
+          <!-- Card -->
+          <div class="pl-14 md:pl-0 md:w-1/2 md:pr-10 w-full">
+            <div class="glass-card p-6 rounded-2xl border-l-4 border-l-[#844e2d] hover:border-l-[#cba07c] transition-colors">
+              <div class="flex items-center justify-between flex-wrap gap-2 mb-3 md:hidden">
+                <span class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#7d6556] bg-[#f4eae0] border border-[#decab6] px-3 py-1 rounded-full">
+                  <i data-lucide="calendar" class="w-3 h-3"></i>
+                  Completed 2022
+                </span>
+              </div>
+              <div class="flex items-start gap-3 mb-3">
+                <div class="p-2.5 rounded-xl bg-[#eddccb] text-[#9c5725] border border-[#844e2d]/40 shrink-0 mt-0.5">
+                  <i data-lucide="flask-conical" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-[#2a1a10]">FSc Pre-Engineering</h3>
+                  <p class="text-sm text-[#8a471b] font-medium">Fatima Jinnah Govt Degree College for Women, Gilgit</p>
+                </div>
+              </div>
+              <p class="text-sm text-[#543e32] leading-relaxed mb-4">
+                Built a strong analytical and scientific foundation essential for a technology career.
+              </p>
+              <div class="space-y-2 text-xs text-[#6e5343]">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Higher Mathematics — calculus, algebra, trigonometry</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Physics — mechanics, electromagnetism, optics</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Developed structured problem-solving &amp; logical reasoning skills</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---- Entry 3: Matriculation ---- -->
+        <div class="relative flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-0 group">
+          <!-- Timeline dot -->
+          <div class="absolute left-6 md:left-1/2 top-6 md:top-1/2 w-5 h-5 rounded-full bg-[#4a3627] border-4 border-[#f8f4ee] -translate-x-1/2 md:-translate-x-1/2 md:-translate-y-1/2 z-10 group-hover:scale-125 transition-transform"></div>
+
+          <!-- Spacer for desktop left side -->
+          <div class="hidden md:block md:w-1/2 md:pr-10 md:text-right">
+            <span class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#7d6556] bg-[#f4eae0] border border-[#decab6] px-3 py-1 rounded-full">
+              <i data-lucide="calendar" class="w-3 h-3"></i>
+              Completed 2020
+            </span>
+          </div>
+
+          <!-- Card -->
+          <div class="pl-14 md:pl-0 md:w-1/2 md:pl-10 w-full">
+            <div class="glass-card p-6 rounded-2xl border-l-4 border-l-[#4a3627] hover:border-l-[#b97e51] transition-colors">
+              <div class="flex items-center justify-between flex-wrap gap-2 mb-3 md:hidden">
+                <span class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#7d6556] bg-[#f4eae0] border border-[#decab6] px-3 py-1 rounded-full">
+                  <i data-lucide="calendar" class="w-3 h-3"></i>
+                  Completed 2020
+                </span>
+              </div>
+              <div class="flex items-start gap-3 mb-3">
+                <div class="p-2.5 rounded-xl bg-[#4a3627]/40 text-[#543e32] border border-[#dac5b0]/50 shrink-0 mt-0.5">
+                  <i data-lucide="school" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-[#2a1a10]">Matriculation (Science)</h3>
+                  <p class="text-sm text-[#6e5343] font-medium">Govt Girls High School Oshikhandass, Gilgit</p>
+                </div>
+              </div>
+              <p class="text-sm text-[#543e32] leading-relaxed">
+                Completed secondary school education in the Science stream, establishing a solid foundation in core scientific subjects and disciplined academic habits.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       SECTION 2: Certifications & Training
+  ====================================================== -->
+  <section class="py-20 border-b border-[#decab6] bg-[#140d09]/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+
+      <!-- Section Header -->
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-[#8a471b] font-mono text-sm tracking-wider uppercase font-semibold">Beyond the Degree</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-[#2a1a10] mt-2">Certifications &amp; Training</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-[#9b5826] to-[#c88647] mx-auto mt-4 rounded-full"></div>
+        <p class="text-[#6e5343] text-sm mt-3">Professional workshops, specialised programs, and university-endorsed certificates.</p>
+      </div>
+
+      <!-- Certifications Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Cert 1: Advanced Web Development - British Council -->
+        <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group hover:border-[#b97e51]/50 transition-colors">
+          <div>
+            <div class="flex items-start justify-between gap-3 mb-4">
+              <div class="p-3 rounded-xl bg-[#eddccb] text-[#9c5725] border border-[#d9c4af] shrink-0">
+                <i data-lucide="globe" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[11px] font-mono text-[#9c5725] bg-[#eddccb] border border-[#d9c4af] px-2.5 py-1 rounded-full whitespace-nowrap">6 Months &bull; Ongoing</span>
+            </div>
+            <h3 class="text-base font-bold text-[#2a1a10] mb-1">Advanced Web Development</h3>
+            <div class="flex items-center gap-1.5 text-xs text-[#9c5725] font-medium mb-3">
+              <i data-lucide="building-2" class="w-3.5 h-3.5"></i>
+              British Council
+            </div>
+            <p class="text-xs text-[#6e5343] leading-relaxed">
+              In-depth training on modern web architectures, state management patterns, RESTful API design, and enterprise-level coding best practices and standards.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-[#decab6] flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#9c5725] text-xs font-mono">Web Architecture</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">State Management</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">Enterprise Practices</span>
+          </div>
+        </div>
+
+        <!-- Cert 2: MERN Stack Development -->
+        <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group hover:border-[#e5ba73]/40 transition-colors">
+          <div>
+            <div class="flex items-start justify-between gap-3 mb-4">
+              <div class="p-3 rounded-xl bg-[#f7ebd9] text-[#9c5725] border border-[#e5d0b9] shrink-0">
+                <i data-lucide="code-2" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[11px] font-mono text-[#9c5725] bg-[#f7ebd9] border border-[#e5d0b9] px-2.5 py-1 rounded-full">3 Months</span>
+            </div>
+            <h3 class="text-base font-bold text-[#2a1a10] mb-1">MERN Stack Development</h3>
+            <div class="flex items-center gap-1.5 text-xs text-[#8a471b] font-medium mb-3">
+              <i data-lucide="building-2" class="w-3.5 h-3.5"></i>
+              Specialized Digital Skills Development Program
+            </div>
+            <p class="text-xs text-[#6e5343] leading-relaxed">
+              Hands-on immersion in full-stack JavaScript development covering HTML5, CSS3, modern JavaScript (ES6+), and Bootstrap 5 for responsive UI design.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-[#decab6] flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded bg-[#f7ebd9] text-[#9c5725] text-xs font-mono">HTML5</span>
+            <span class="px-2 py-0.5 rounded bg-[#f7ebd9] text-[#9c5725] text-xs font-mono">CSS3</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">JavaScript</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">Bootstrap</span>
+          </div>
+        </div>
+
+        <!-- Cert 3: KIU Sports Management -->
+        <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group hover:border-[#844e2d]/50 transition-colors">
+          <div>
+            <div class="flex items-start justify-between gap-3 mb-4">
+              <div class="p-3 rounded-xl bg-[#eddccb] text-[#9c5725] border border-[#844e2d]/40 shrink-0">
+                <i data-lucide="trophy" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[11px] font-mono text-[#7d6556] bg-[#f4eae0] border border-[#decab6] px-2.5 py-1 rounded-full">Certificate</span>
+            </div>
+            <h3 class="text-base font-bold text-[#2a1a10] mb-1">KIU Sports Management</h3>
+            <div class="flex items-center gap-1.5 text-xs text-[#543e32] font-medium mb-3">
+              <i data-lucide="building-2" class="w-3.5 h-3.5"></i>
+              Karakoram International University
+            </div>
+            <p class="text-xs text-[#6e5343] leading-relaxed">
+              Certified for event coordination and organisational leadership during KIU's university athletic tournaments. Developed strong teamwork, planning, and execution skills under pressure.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-[#decab6] flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#f6d5a8] text-xs font-mono">Event Coordination</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">Leadership</span>
+          </div>
+        </div>
+
+        <!-- Cert 4: Photography Workshop -->
+        <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group hover:border-[#673c25]/60 transition-colors">
+          <div>
+            <div class="flex items-start justify-between gap-3 mb-4">
+              <div class="p-3 rounded-xl bg-[#eddccb] text-[#eddacb] border border-[#673c25]/40 shrink-0">
+                <i data-lucide="camera" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[11px] font-mono text-[#7d6556] bg-[#f4eae0] border border-[#decab6] px-2.5 py-1 rounded-full">Workshop</span>
+            </div>
+            <h3 class="text-base font-bold text-[#2a1a10] mb-1">Photography Workshop</h3>
+            <div class="flex items-center gap-1.5 text-xs text-[#543e32] font-medium mb-3">
+              <i data-lucide="building-2" class="w-3.5 h-3.5"></i>
+              WWF Pakistan &amp; Nikon &bull; KIU Gilgit
+            </div>
+            <p class="text-xs text-[#6e5343] leading-relaxed">
+              Professional workshop covering visual framing techniques, lighting theory, composition principles, and creative storytelling through the lens — hosted in collaboration with WWF and Nikon.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-[#decab6] flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#eddacb] text-xs font-mono">Visual Framing</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">Lighting</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">Composition</span>
+          </div>
+        </div>
+
+        <!-- Cert 5: Pre-Primary School Teachers Training -->
+        <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group hover:border-[#b97e51]/50 transition-colors">
+          <div>
+            <div class="flex items-start justify-between gap-3 mb-4">
+              <div class="p-3 rounded-xl bg-[#eddccb] text-[#9c5725] border border-[#d9c4af] shrink-0">
+                <i data-lucide="user-check" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[11px] font-mono text-[#7d6556] bg-[#f4eae0] border border-[#decab6] px-2.5 py-1 rounded-full">Certificate</span>
+            </div>
+            <h3 class="text-base font-bold text-[#2a1a10] mb-1">Pre-Primary School Teachers Training</h3>
+            <div class="flex items-center gap-1.5 text-xs text-[#543e32] font-medium mb-3">
+              <i data-lucide="building-2" class="w-3.5 h-3.5"></i>
+              KIU Gilgit Certificate
+            </div>
+            <p class="text-xs text-[#6e5343] leading-relaxed">
+              Pedagogical training covering communication techniques, mentorship strategies, classroom management, and structured instructional planning for early childhood education.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-[#decab6] flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#9c5725] text-xs font-mono">Pedagogy</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">Mentorship</span>
+            <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono">Communication</span>
+          </div>
+        </div>
+
+        <!-- Summary Stats Card -->
+        <div class="rounded-2xl bg-gradient-to-br from-[#f5ede1] via-[#faefe3] to-[#f4e9db] border border-[#d9c4af]/25 p-6 flex flex-col justify-center items-center text-center gap-5">
+          <div class="p-3.5 rounded-xl bg-[#eddccb] text-[#9c5725] border border-[#d9c4af]">
+            <i data-lucide="award" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <div class="text-4xl font-extrabold text-white">5+</div>
+            <div class="text-sm text-[#9c5725] font-semibold mt-1">Certificates &amp; Workshops</div>
+            <p class="text-xs text-[#6e5343] mt-2 leading-relaxed">Ranging from professional web development to creative arts and educational pedagogy.</p>
+          </div>
+          <a href="contact.html" class="w-full py-3 rounded-xl bg-gradient-to-r from-[#9b5826] to-[#b57238] text-white font-bold text-sm hover:brightness-110 transition-all flex items-center justify-center gap-2">
+            <i data-lucide="mail" class="w-4 h-4"></i>
+            Hire Me
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+       SECTION 3: Professional Experience
+  ====================================================== -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+
+      <!-- Section Header -->
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-[#8a471b] font-mono text-sm tracking-wider uppercase font-semibold">Work Experience</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-[#2a1a10] mt-2">Professional Experience</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-[#9b5826] to-[#c88647] mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="max-w-3xl mx-auto">
+        <!-- Home Tutor Experience Card -->
+        <div class="glass-card p-8 rounded-2xl border-l-4 border-l-[#c07a3e]">
+          <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+            <div class="flex items-center gap-4">
+              <div class="p-3.5 rounded-2xl bg-[#eddccb] text-[#9c5725] border border-[#d9c4af]">
+                <i data-lucide="users" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-[#2a1a10]">Home Tutor</h3>
+                <p class="text-sm text-[#8a471b] font-medium">Self-Employed &bull; Gilgit, Pakistan</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="relative flex h-2 w-2">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+              </span>
+              <span class="text-xs font-mono font-bold text-[#9c5725] bg-[#eddccb] border border-[#d9c4af] px-3 py-1 rounded-full">2020 &ndash; Present</span>
+            </div>
+          </div>
+
+          <p class="text-[#543e32] text-sm leading-relaxed mb-6">
+            Provided dedicated academic tutoring to primary and secondary school students across a range of subjects. Designed and delivered tailored lesson plans aligned with individual student needs and curriculum standards, consistently improving student outcomes and confidence.
+          </p>
+
+          <!-- Key Responsibilities & Skills Gained -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+            <div>
+              <h4 class="text-xs font-semibold text-[#9c5725] uppercase tracking-wider mb-3">Key Responsibilities</h4>
+              <div class="space-y-2 text-xs text-[#6e5343]">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Taught primary &amp; secondary school students</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Developed tailored lesson plans per student</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Prepared students for academic exams</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                  <span>Monitored and tracked student progress</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-xs font-semibold text-[#9c5725] uppercase tracking-wider mb-3">Skills Developed</h4>
+              <div class="space-y-2 text-xs text-[#6e5343]">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-[#e5ba73] shrink-0"></i>
+                  <span>Clear communication &amp; patience</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-[#e5ba73] shrink-0"></i>
+                  <span>Leadership &amp; mentorship</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-[#e5ba73] shrink-0"></i>
+                  <span>Structured problem-solving mindset</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="star" class="w-3.5 h-3.5 text-[#e5ba73] shrink-0"></i>
+                  <span>Dedication to continuous learning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Impact Stat -->
+          <div class="p-4 rounded-xl bg-[#fbf7f2] border border-[#decab6] text-center">
+            <p class="text-xs text-[#6e5343]">
+              <strong class="text-[#9c5725]">4+ years</strong> of consistent, hands-on teaching experience — strengthening adaptability, empathy, and clear technical communication skills that directly translate to collaborative development environments.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================
+       CTA Strip
+  ====================================================== -->
+  <section class="py-14 border-t border-[#decab6] bg-gradient-to-r from-[#eddccb]/60 via-[#f5e9dc] to-[#eddccb]/60">
+    <div class="max-w-3xl mx-auto px-4 sm:px-8 text-center">
+      <span class="relative flex h-3 w-3 mx-auto mb-4">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+      </span>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2a1a10] mb-3">Ready to work together?</h2>
+      <p class="text-[#6e5343] text-sm mb-8">I'm actively seeking Junior Web / Mobile Developer roles and internship opportunities. Let's connect!</p>
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="contact.html" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-[#c07a3e] to-[#b97e51] text-white font-bold hover:brightness-110 shadow-lg shadow-[#844e2d]/30 transition-all flex items-center gap-2">
+          <i data-lucide="mail" class="w-5 h-5"></i>
+          Get In Touch
+        </a>
+        <a href="assets/Saniya_Zahra_CV.pdf" download="Saniya_Zahra_CV.pdf" class="px-5 py-3.5 rounded-xl bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#3d2c22] border border-[#dac5b0] hover:border-[#965527] font-semibold transition-all flex items-center gap-2">
+          <i data-lucide="download" class="w-5 h-5 text-[#8a471b]"></i>
+          Download CV
+        </a>
+        <a href="projects.html" class="px-5 py-3.5 rounded-xl bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#6e5343] hover:text-[#2a1a10] border border-[#dac5b0] font-semibold transition-all flex items-center gap-2">
+          <i data-lucide="layers" class="w-5 h-5 text-[#9c5725]"></i>
+          View Projects
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-[#decab6] bg-[#ebe0d1] text-[#7d6556] text-xs sm:text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div>
+        <span class="text-[#2a1a10] font-semibold">&copy; 2026 Saniya Zahra.</span> All rights reserved. Built with clean HTML, Tailwind CSS &amp; Vanilla JS.
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="about.html" class="hover:text-[#2a1a10] transition-colors">About</a>
+        <a href="skills.html" class="hover:text-[#2a1a10] transition-colors">Skills</a>
+        <a href="projects.html" class="hover:text-[#2a1a10] transition-colors">Projects</a>
+        <a href="education.html" class="hover:text-[#2a1a10] transition-colors">Education</a>
+        <a href="contact.html" class="hover:text-[#2a1a10] transition-colors">Contact</a>
+        <a href="#" class="p-2 rounded-lg bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#9c5725] border border-[#decab6] transition-colors" title="Back to top">
+          <i data-lucide="arrow-up" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/923555801151?text=Hi%20Saniya,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="fixed bottom-6 left-6 z-40 px-4 py-3 rounded-full bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white font-bold shadow-xl shadow-black/50 flex items-center gap-2 transition-all hover:scale-105 animate-float-wp group"
+     title="Chat directly on WhatsApp">
+    <i data-lucide="message-circle" class="w-5 h-5 fill-white"></i>
+    <span class="text-xs sm:text-sm font-semibold hidden sm:inline">WhatsApp Chat</span>
+    <span class="flex h-2 w-2 relative">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+    </span>
+  </a>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="hidden fixed bottom-6 right-6 z-50 bg-[#fefcf9] text-[#2a1a10] border border-[#9b5826]/40 shadow-2xl rounded-xl px-5 py-3.5 flex items-center gap-3 backdrop-blur-xl">
+    <div class="w-2.5 h-2.5 rounded-full bg-[#9b5826] animate-ping"></div>
+    <span id="toastMessage" class="text-sm font-medium">Notification message</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

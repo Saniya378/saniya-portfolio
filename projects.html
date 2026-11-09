@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Saniya Zahra — Full-Stack Laravel & Flutter Developer</title>
+  <meta name="description" content="Explore Saniya Zahra's portfolio of real-world projects: AI-powered beauty salon booking, Flutter mobile apps, Laravel platforms, school management systems, and sports portals.">
+  <meta name="keywords" content="Saniya Zahra, Projects, Laravel, Flutter, Gemini AI, PHP, MySQL, Portfolio, Gilgit, Pakistan">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fbf8f5',
+              100: '#f6efe7',
+              200: '#eedfce',
+              300: '#e1cbaf',
+              400: '#d1b28d',
+              500: '#b88f65',
+              600: '#9b7147',
+              700: '#7c5432',
+              800: '#5e3d23',
+              900: '#3d2616',
+              950: '#26160c',
+            },
+            accent: {
+              300: '#ebd1b5',
+              400: '#deb892',
+              500: '#c89664',
+              600: '#a87342',
+              700: '#86542b',
+            },
+            warmdark: {
+              950: '#20130b',
+              900: '#2b1b11',
+              850: '#382418',
+              800: '#483022',
+              700: '#5c3f2d',
+              600: '#74513b',
+              500: '#8f654b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#f8f4ee] text-[#463327] antialiased selection:bg-[#a3653b] selection:text-white relative overflow-x-hidden min-h-screen">
+
+  <!-- Scroll Progress Bar -->
+  <div id="scrollProgressBar" class="fixed top-0 left-0 h-1 bg-gradient-to-r from-[#c07a3e] via-[#e5ba73] to-[#9c5b2a] z-[100] transition-all duration-75" style="width: 0%"></div>
+
+  <!-- Ambient Glow Backgrounds — Warm Bronze & Amber -->
+  <div class="fixed top-0 left-1/4 w-96 h-96 bg-[#d99b61]/25 rounded-full blur-3xl pointer-events-none -z-10"></div>
+  <div class="fixed top-1/3 right-10 w-80 h-80 bg-[#f3c68f]/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+  <div class="fixed bottom-10 left-10 w-96 h-96 bg-[#eddccb] rounded-full blur-3xl pointer-events-none -z-10"></div>
+
+  <!-- Background Grid Pattern -->
+  <div class="fixed inset-0 bg-grid-pattern opacity-40 pointer-events-none -z-10"></div>
+
+  <!-- Announcement / Availability Banner -->
+  <div class="bg-gradient-to-r from-[#ebdcca] via-[#f5e9dc] to-[#ebdcca] border-b border-[#dac5b0] py-2 text-xs md:text-sm text-center font-medium text-[#543b2b]">
+    <div class="container mx-auto px-4 flex items-center justify-center gap-2">
+      <span class="relative flex h-2 w-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+      </span>
+      <span>Actively looking for <strong class="text-[#9c5725]">Junior Web / Mobile Developer Roles</strong> &amp; <strong class="text-[#9c5725]">Internships</strong></span>
+      <a href="contact.html" class="underline hover:text-accent-400 ml-1 font-semibold text-[#8a471b]">Get in touch &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav id="navbar" class="sticky top-0 z-50 transition-all duration-300 py-4 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+      <!-- Logo with Profile Picture -->
+      <a href="index.html" class="flex items-center gap-2.5 group">
+        <div class="relative">
+          <img src="assets/profile.jpg" alt="Saniya Zahra" class="w-10 h-10 rounded-xl object-cover border-2 border-[#b87333] shadow-md shadow-[#9b5826]/20 group-hover:scale-105 transition-transform">
+          <span class="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-green-500 rounded-full border-2 border-[#f8f4ee]" title="Available for hire"></span>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-bold text-lg text-[#2a1a10] tracking-tight group-hover:text-[#9c5725] transition-colors">
+            Saniya Zahra
+          </span>
+          <span class="text-xs text-[#8a471b] font-mono -mt-1">Full-Stack &amp; Flutter</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <div class="hidden md:flex items-center gap-1 lg:gap-2 bg-[#fbf7f2]/90 border border-[#decab6] rounded-full px-5 py-2 backdrop-blur-md shadow-sm shadow-[#503422]/10">
+        <a href="index.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">Home</a>
+        <a href="about.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">About</a>
+        <a href="skills.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">Skills</a>
+        <a href="projects.html" class="px-3 py-1.5 text-sm text-[#2a1a10] bg-[#e3d1be] rounded-full font-semibold transition-all">Projects</a>
+        <a href="education.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">Education</a>
+        <a href="contact.html" class="px-3 py-1.5 text-sm text-[#6e5343] hover:text-[#2a1a10] hover:bg-[#ebdccb]/70 rounded-full transition-all">Contact</a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="assets/Saniya_Zahra_CV.pdf" download="Saniya_Zahra_CV.pdf" class="px-3.5 py-2 rounded-xl text-xs font-semibold text-[#3d2c22] border border-[#dac5b0] hover:border-[#965527] hover:text-[#965527] bg-[#fbf7f2] transition-all flex items-center gap-1.5">
+          <i data-lucide="download" class="w-4 h-4 text-[#8a471b]"></i>
+          CV
+        </a>
+        <a href="contact.html" class="px-4 py-2 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-[#9b5826] to-[#b57238] hover:brightness-110 shadow-md shadow-[#9b5826]/20 transition-all flex items-center gap-2">
+          <i data-lucide="mail" class="w-4 h-4"></i>
+          Hire Me
+        </a>
+        <a href="https://github.com/Saniya378" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-[#fbf7f2] text-[#5e4536] hover:text-[#2a1a10] hover:bg-[#ebdcca] transition-all border border-[#dac5b0]" title="GitHub Profile">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="mobileMenuBtn" class="md:hidden p-2.5 rounded-xl bg-[#fbf7f2] border border-[#dac5b0] text-[#5e4536] hover:text-[#2a1a10] focus:outline-none">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden md:hidden mt-3 mx-4 p-4 rounded-2xl bg-[#fbf7f2]/98 border border-[#decab6] backdrop-blur-xl shadow-2xl flex flex-col gap-2">
+      <a href="index.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">Home</a>
+      <a href="about.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">About</a>
+      <a href="skills.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">Skills</a>
+      <a href="projects.html" class="mobile-nav-link py-2 px-3 text-[#2a1a10] font-semibold bg-[#e3d1be] rounded-lg">Projects</a>
+      <a href="education.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">Education</a>
+      <a href="contact.html" class="mobile-nav-link py-2 px-3 text-[#6e5343] hover:bg-[#ebdccb] rounded-lg">Contact</a>
+      <hr class="border-[#decab6] my-1">
+      <div class="flex gap-2 pt-1">
+        <a href="contact.html" class="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-[#9b5826] to-[#b57238] text-white font-bold text-sm">
+          Hire Me
+        </a>
+        <a href="https://github.com/Saniya378" target="_blank" class="p-2.5 rounded-xl bg-[#fbf7f2] text-[#2a1a10] flex items-center justify-center border border-[#dac5b0]">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <header class="relative pt-16 pb-12 md:pt-20 md:pb-16 overflow-hidden border-b border-[#decab6]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 text-center">
+
+      <!-- Breadcrumb -->
+      <div class="flex items-center justify-center gap-2 text-xs text-[#7d6556] mb-6 font-mono">
+        <a href="index.html" class="hover:text-[#9c5725] transition-colors">Home</a>
+        <i data-lucide="chevron-right" class="w-3 h-3"></i>
+        <span class="text-[#9c5725] font-semibold">Projects</span>
+      </div>
+
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#eddccb] border border-[#d9c4af] text-[#8b4a1b] text-xs sm:text-sm font-medium mb-5">
+        <i data-lucide="layers" class="w-4 h-4"></i>
+        Real-World Applications
+      </div>
+
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#2a1a10] leading-tight mb-4">
+        Projects <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#9e5b29] via-[#b87333] to-[#7d441a]">Showcase</span>
+      </h1>
+
+      <p class="text-[#543e32] text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6">
+        Production-ready applications spanning web backends, mobile apps, and AI integrations. Each project demonstrates clean architecture, secure APIs, and thoughtful UX design.
+      </p>
+
+      <!-- Quick Stats Row -->
+      <div class="flex flex-wrap items-center justify-center gap-6 mt-8">
+        <div class="flex items-center gap-2 text-sm text-[#543e32]">
+          <span class="w-8 h-8 rounded-lg bg-[#eddccb] border border-[#d9c4af] flex items-center justify-center">
+            <i data-lucide="folder-open" class="w-4 h-4 text-[#9c5725]"></i>
+          </span>
+          <span><strong class="text-[#2a1a10]">5</strong> Total Projects</span>
+        </div>
+        <div class="flex items-center gap-2 text-sm text-[#543e32]">
+          <span class="w-8 h-8 rounded-lg bg-[#f7ebd9] border border-[#e5d0b9] flex items-center justify-center">
+            <i data-lucide="server" class="w-4 h-4 text-[#9c5725]"></i>
+          </span>
+          <span><strong class="text-[#2a1a10]">4</strong> Laravel Web Apps</span>
+        </div>
+        <div class="flex items-center gap-2 text-sm text-[#543e32]">
+          <span class="w-8 h-8 rounded-lg bg-[#eddccb] border border-[#844e2d]/40 flex items-center justify-center">
+            <i data-lucide="smartphone" class="w-4 h-4 text-[#9c5725]"></i>
+          </span>
+          <span><strong class="text-[#2a1a10]">1</strong> Flutter Mobile App</span>
+        </div>
+        <div class="flex items-center gap-2 text-sm text-[#543e32]">
+          <span class="w-8 h-8 rounded-lg bg-[#eddccb] border border-[#c07a3e]/30 flex items-center justify-center">
+            <i data-lucide="bot" class="w-4 h-4 text-[#9c5725]"></i>
+          </span>
+          <span><strong class="text-[#2a1a10]">2</strong> AI-Integrated</span>
+        </div>
+        <div class="flex items-center gap-2 text-sm text-[#543e32]">
+          <span class="w-8 h-8 rounded-lg bg-[#f4eae0] border border-[#decab6] flex items-center justify-center">
+            <i data-lucide="github" class="w-4 h-4 text-[#543e32]"></i>
+          </span>
+          <a href="https://github.com/Saniya378" target="_blank" rel="noopener noreferrer" class="hover:text-[#2a1a10] transition-colors">github.com/Saniya378</a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <main class="py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-12">
+        <button data-filter="all" class="filter-btn active px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-[#decab6] bg-[#fefcf9] text-[#6e5343] transition-all">
+          All (5)
+        </button>
+        <button data-filter="laravel" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-[#decab6] bg-[#fefcf9] text-[#6e5343] hover:bg-[#eee1d1] transition-all">
+          <span class="flex items-center gap-1.5"><i data-lucide="server" class="w-3.5 h-3.5"></i> Laravel Web (4)</span>
+        </button>
+        <button data-filter="flutter" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-[#decab6] bg-[#fefcf9] text-[#6e5343] hover:bg-[#eee1d1] transition-all">
+          <span class="flex items-center gap-1.5"><i data-lucide="smartphone" class="w-3.5 h-3.5"></i> Flutter Mobile (1)</span>
+        </button>
+        <button data-filter="ai" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-[#decab6] bg-[#fefcf9] text-[#6e5343] hover:bg-[#eee1d1] transition-all">
+          <span class="flex items-center gap-1.5"><i data-lucide="bot" class="w-3.5 h-3.5"></i> AI &amp; Special (2)</span>
+        </button>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div id="projectsGrid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
+
+        <!-- =====================================================
+             PROJECT 1: Book My Beauty — Final Year Project + AI
+             ===================================================== -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden flex flex-col" data-category="laravel ai">
+
+          <!-- Card Header / Visual -->
+          <div class="h-52 bg-gradient-to-br from-[#ede0d2] via-[#e4d1bf] to-[#d8bfab] border-b border-[#decab6] p-6 flex flex-col justify-between relative overflow-hidden">
+            <!-- Decorative glow -->
+            <div class="absolute -top-6 -right-6 w-32 h-32 bg-[#eddccb] rounded-full blur-2xl pointer-events-none"></div>
+            <div class="flex items-center justify-between relative z-10">
+              <span class="px-2.5 py-1 rounded-md bg-[#c07a3e]/25 text-[#9c5725] border border-[#c07a3e]/40 text-xs font-semibold flex items-center gap-1.5">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Final Year Project
+              </span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#f6d5a8] text-xs font-mono border border-[#844e2d]/40">Gemini AI</span>
+            </div>
+            <div class="relative z-10">
+              <div class="w-12 h-12 rounded-xl bg-[#eddccb] border border-[#c07a3e]/30 flex items-center justify-center mb-3">
+                <i data-lucide="scissors" class="w-6 h-6 text-[#9c5725]"></i>
+              </div>
+              <h3 class="text-xl font-bold text-[#2a1a10]">Book My Beauty</h3>
+              <p class="text-xs text-[#8a471b] font-mono mt-0.5">AI-powered Salon Booking Platform</p>
+            </div>
+          </div>
+
+          <!-- Card Body -->
+          <div class="p-6 flex flex-col flex-1 space-y-4">
+            <p class="text-[#543e32] text-sm leading-relaxed">
+              An AI-powered beauty salon booking platform featuring separate role dashboards for <strong class="text-[#9c5725]">Admin, Customer, and Beautician</strong> users. Includes real-time appointment scheduling, secure email password recovery, and an intelligent <strong class="text-[#9c5725]">Google Gemini AI</strong> salon consultation chatbot.
+            </p>
+
+            <!-- Feature Checklist -->
+            <ul class="space-y-1.5 text-xs text-[#6e5343]">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Role-based dashboards: Admin / Customer / Beautician</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Real-time appointment scheduling &amp; calendar</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Gemini AI Salon Consultation Chatbot</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Email password recovery &amp; notifications</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Analytics dashboard &amp; booking management</span>
+              </li>
+            </ul>
+
+            <!-- Tech Stack Badges -->
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#9c5725] text-xs font-mono border border-[#b97e51]/25">Laravel</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">PHP</span>
+              <span class="px-2 py-0.5 rounded bg-[#f7ebd9] text-[#9c5725] text-xs font-mono border border-[#e5ba73]/25">MySQL</span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#f6d5a8] text-xs font-mono border border-[#844e2d]/35">Gemini API</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">Blade</span>
+            </div>
+
+            <!-- Category Tags -->
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded-full bg-[#eddccb] text-[#8a471b] text-[10px] font-semibold uppercase tracking-wider border border-[#c07a3e]/20">Laravel Web</span>
+              <span class="px-2 py-0.5 rounded-full bg-[#eddccb] text-[#9c5725] text-[10px] font-semibold uppercase tracking-wider border border-[#b97e51]/20">AI Integration</span>
+              <span class="px-2 py-0.5 rounded-full bg-[#684c37]/30 text-[#dec0a7] text-[10px] font-semibold uppercase tracking-wider border border-[#684c37]/30">FYP</span>
+            </div>
+          </div>
+
+          <!-- Card Footer -->
+          <div class="px-6 py-4 border-t border-[#decab6] bg-[#f4ebe0] flex items-center justify-between gap-3">
+            <a href="https://github.com/Saniya378/book-my-beauty" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#9c5725] hover:text-[#2a1a10] text-sm font-semibold border border-[#decab6] hover:border-[#b97e51] transition-all">
+              <i data-lucide="github" class="w-4 h-4"></i> View on GitHub
+            </a>
+            <span class="text-[10px] font-mono text-[#7d6556]">FYP 2026</span>
+          </div>
+        </div>
+
+        <!-- =====================================================
+             PROJECT 2: Saniya Writes / BlogHub App — Flutter
+             ===================================================== -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden flex flex-col" data-category="flutter">
+
+          <!-- Card Header / Visual -->
+          <div class="h-52 bg-gradient-to-br from-[#f2e5d7] via-[#e5d3c1] to-[#dabfab] border-b border-[#decab6] p-6 flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute -top-6 -right-6 w-32 h-32 bg-[#f7ebd9] rounded-full blur-2xl pointer-events-none"></div>
+            <div class="flex items-center justify-between relative z-10">
+              <span class="px-2.5 py-1 rounded-md bg-[#f7ebd9] text-[#9c5725] border border-[#e5d0b9] text-xs font-semibold flex items-center gap-1.5">
+                <i data-lucide="smartphone" class="w-3.5 h-3.5"></i> Android Mobile App
+              </span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#f6d5a8] text-xs font-mono border border-[#844e2d]/35">Riverpod</span>
+            </div>
+            <div class="relative z-10">
+              <div class="w-12 h-12 rounded-xl bg-[#f7ebd9] border border-[#e5d0b9] flex items-center justify-center mb-3">
+                <i data-lucide="pen-tool" class="w-6 h-6 text-[#9c5725]"></i>
+              </div>
+              <h3 class="text-xl font-bold text-[#2a1a10]">Saniya Writes</h3>
+              <p class="text-xs text-[#8a471b] font-mono mt-0.5">BlogHub Flutter Mobile App</p>
+            </div>
+          </div>
+
+          <!-- Card Body -->
+          <div class="p-6 flex flex-col flex-1 space-y-4">
+            <p class="text-[#543e32] text-sm leading-relaxed">
+              A modern Flutter mobile application crafted for authors and content creators in the BlogHub ecosystem. Engineered with <strong class="text-[#9c5725]">Clean Architecture</strong>, Riverpod state management, and Dio networking — connecting seamlessly with the Laravel Sanctum REST API.
+            </p>
+
+            <ul class="space-y-1.5 text-xs text-[#6e5343]">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Clean Architecture (Data / Domain / Presentation layers)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Riverpod state management &amp; GoRouter navigation</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Dio HTTP client for high-performance API calls</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Connects to Laravel Sanctum REST API backend</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Blog browsing, authoring, and reading experience</span>
+              </li>
+            </ul>
+
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#9c5725] text-xs font-mono border border-[#b97e51]/25">Flutter</span>
+              <span class="px-2 py-0.5 rounded bg-[#f7ebd9] text-[#9c5725] text-xs font-mono border border-[#e5ba73]/25">Dart</span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#f6d5a8] text-xs font-mono border border-[#844e2d]/35">Riverpod</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">Dio HTTP</span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#eddacb] text-xs font-mono border border-[#673c25]/30">REST API</span>
+            </div>
+
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded-full bg-[#f7ebd9] text-[#f6d5a8] text-[10px] font-semibold uppercase tracking-wider border border-[#e5ba73]/20">Flutter Mobile</span>
+              <span class="px-2 py-0.5 rounded-full bg-[#684c37]/30 text-[#dec0a7] text-[10px] font-semibold uppercase tracking-wider border border-[#684c37]/30">Clean Arch</span>
+            </div>
+          </div>
+
+          <div class="px-6 py-4 border-t border-[#decab6] bg-[#f4ebe0] flex items-center justify-between gap-3">
+            <a href="https://github.com/Saniya378/saniya_writes" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#9c5725] hover:text-[#2a1a10] text-sm font-semibold border border-[#decab6] hover:border-[#b97e51] transition-all">
+              <i data-lucide="github" class="w-4 h-4"></i> View on GitHub
+            </a>
+            <span class="text-[10px] font-mono text-[#7d6556]">Flutter / Dart</span>
+          </div>
+        </div>
+
+        <!-- =====================================================
+             PROJECT 3: BlogHub Platform — Laravel 12
+             ===================================================== -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden flex flex-col" data-category="laravel">
+
+          <!-- Card Header / Visual -->
+          <div class="h-52 bg-gradient-to-br from-[#ebdccb] via-[#e1cdb9] to-[#d4baa4] border-b border-[#decab6] p-6 flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute -top-6 -right-6 w-32 h-32 bg-[#eddccb] rounded-full blur-2xl pointer-events-none"></div>
+            <div class="flex items-center justify-between relative z-10">
+              <span class="px-2.5 py-1 rounded-md bg-[#eddccb] text-[#9c5725] border border-[#d9c4af] text-xs font-semibold flex items-center gap-1.5">
+                <i data-lucide="layers" class="w-3.5 h-3.5"></i> Full-Stack &amp; REST API
+              </span>
+              <span class="px-2 py-0.5 rounded bg-[#b97e51]/25 text-[#9c5725] text-xs font-mono border border-[#d9c4af]">Laravel 12</span>
+            </div>
+            <div class="relative z-10">
+              <div class="w-12 h-12 rounded-xl bg-[#eddccb] border border-[#d9c4af] flex items-center justify-center mb-3">
+                <i data-lucide="newspaper" class="w-6 h-6 text-[#9c5725]"></i>
+              </div>
+              <h3 class="text-xl font-bold text-[#2a1a10]">BlogHub Platform</h3>
+              <p class="text-xs text-[#8a471b] font-mono mt-0.5">Laravel 12 Multi-Role Blog Platform</p>
+            </div>
+          </div>
+
+          <!-- Card Body -->
+          <div class="p-6 flex flex-col flex-1 space-y-4">
+            <p class="text-[#543e32] text-sm leading-relaxed">
+              A multi-role publishing &amp; blogging platform built on Laravel 12 featuring robust <strong class="text-[#9c5725]">Role-Based Access Control (RBAC)</strong> for Admin, Author, and Reader users. Includes a secured RESTful API with Laravel Sanctum, editorial approval workflows, and threaded discussions.
+            </p>
+
+            <ul class="space-y-1.5 text-xs text-[#6e5343]">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Multi-role system: Admin / Author / Reader (RBAC)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Sanctum-secured RESTful API endpoints</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Editorial approval workflows &amp; content moderation</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Threaded comments &amp; discussions system</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Responsive Tailwind CSS &amp; Blade templating</span>
+              </li>
+            </ul>
+
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#9c5725] text-xs font-mono border border-[#b97e51]/25">Laravel 12</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">PHP</span>
+              <span class="px-2 py-0.5 rounded bg-[#f7ebd9] text-[#9c5725] text-xs font-mono border border-[#e5ba73]/25">MySQL</span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#9c5725] text-xs font-mono border border-[#c07a3e]/25">Sanctum</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">Tailwind</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">Blade</span>
+            </div>
+
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded-full bg-[#eddccb] text-[#8a471b] text-[10px] font-semibold uppercase tracking-wider border border-[#b97e51]/20">Laravel Web</span>
+              <span class="px-2 py-0.5 rounded-full bg-[#684c37]/30 text-[#dec0a7] text-[10px] font-semibold uppercase tracking-wider border border-[#684c37]/30">RBAC</span>
+              <span class="px-2 py-0.5 rounded-full bg-[#684c37]/30 text-[#dec0a7] text-[10px] font-semibold uppercase tracking-wider border border-[#684c37]/30">REST API</span>
+            </div>
+          </div>
+
+          <div class="px-6 py-4 border-t border-[#decab6] bg-[#f4ebe0] flex items-center justify-between gap-3">
+            <a href="https://github.com/Saniya378/bloghub" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#9c5725] hover:text-[#2a1a10] text-sm font-semibold border border-[#decab6] hover:border-[#b97e51] transition-all">
+              <i data-lucide="github" class="w-4 h-4"></i> View on GitHub
+            </a>
+            <span class="text-[10px] font-mono text-[#7d6556]">Laravel 12</span>
+          </div>
+        </div>
+
+        <!-- =====================================================
+             PROJECT 4: EduConnect School Management — Laravel 11
+             ===================================================== -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden flex flex-col" data-category="laravel">
+
+          <!-- Card Header / Visual -->
+          <div class="h-52 bg-gradient-to-br from-[#f2e5d7] via-[#e5d3c1] to-[#dabfab] border-b border-[#decab6] p-6 flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute -top-6 -right-6 w-32 h-32 bg-[#eddccb] rounded-full blur-2xl pointer-events-none"></div>
+            <div class="flex items-center justify-between relative z-10">
+              <span class="px-2.5 py-1 rounded-md bg-[#f7ebd9] text-[#9c5725] border border-[#e5d0b9] text-xs font-semibold flex items-center gap-1.5">
+                <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i> School Management System
+              </span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#eddacb] text-xs font-mono border border-[#844e2d]/35">Laravel 11</span>
+            </div>
+            <div class="relative z-10">
+              <div class="w-12 h-12 rounded-xl bg-[#f7ebd9] border border-[#e5d0b9] flex items-center justify-center mb-3">
+                <i data-lucide="book-open" class="w-6 h-6 text-[#9c5725]"></i>
+              </div>
+              <h3 class="text-xl font-bold text-[#2a1a10]">EduConnect</h3>
+              <p class="text-xs text-[#8a471b] font-mono mt-0.5">School Management Portal</p>
+            </div>
+          </div>
+
+          <!-- Card Body -->
+          <div class="p-6 flex flex-col flex-1 space-y-4">
+            <p class="text-[#543e32] text-sm leading-relaxed">
+              A comprehensive Laravel 11 school management portal providing dedicated portals for <strong class="text-[#9c5725]">Students, Teachers, Admins, and Parents</strong>. Handles attendance tracking, grade management, timetables, and communication across all roles.
+            </p>
+
+            <ul class="space-y-1.5 text-xs text-[#6e5343]">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Multi-role portals: Student / Teacher / Admin / Parent</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Attendance tracking &amp; management system</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Grade management, timetable &amp; report cards</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Parent communication &amp; progress portal</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Bootstrap 5 responsive UI with Blade templates</span>
+              </li>
+            </ul>
+
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#9c5725] text-xs font-mono border border-[#b97e51]/25">Laravel 11</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">PHP</span>
+              <span class="px-2 py-0.5 rounded bg-[#f7ebd9] text-[#9c5725] text-xs font-mono border border-[#e5ba73]/25">MySQL</span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#eddacb] text-xs font-mono border border-[#844e2d]/35">Bootstrap 5</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">Blade</span>
+            </div>
+
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded-full bg-[#eddccb] text-[#8a471b] text-[10px] font-semibold uppercase tracking-wider border border-[#b97e51]/20">Laravel Web</span>
+              <span class="px-2 py-0.5 rounded-full bg-[#684c37]/30 text-[#dec0a7] text-[10px] font-semibold uppercase tracking-wider border border-[#684c37]/30">Education</span>
+            </div>
+          </div>
+
+          <div class="px-6 py-4 border-t border-[#decab6] bg-[#f4ebe0] flex items-center justify-between gap-3">
+            <a href="https://github.com/Saniya378/EduConnect" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#9c5725] hover:text-[#2a1a10] text-sm font-semibold border border-[#decab6] hover:border-[#b97e51] transition-all">
+              <i data-lucide="github" class="w-4 h-4"></i> View on GitHub
+            </a>
+            <span class="text-[10px] font-mono text-[#7d6556]">Laravel 11</span>
+          </div>
+        </div>
+
+        <!-- =====================================================
+             PROJECT 5: KIU Sports Gala Portal — Laravel 12
+             ===================================================== -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden flex flex-col" data-category="laravel">
+
+          <!-- Card Header / Visual -->
+          <div class="h-52 bg-gradient-to-br from-[#ebdccb] via-[#dfcab6] to-[#d2b8a2] border-b border-[#decab6] p-6 flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute -top-6 -right-6 w-32 h-32 bg-[#eddccb] rounded-full blur-2xl pointer-events-none"></div>
+            <div class="flex items-center justify-between relative z-10">
+              <span class="px-2.5 py-1 rounded-md bg-[#eddccb] text-[#9c5725] border border-[#c07a3e]/30 text-xs font-semibold flex items-center gap-1.5">
+                <i data-lucide="trophy" class="w-3.5 h-3.5"></i> Tournament Portal
+              </span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#f6d5a8] text-xs font-mono border border-[#844e2d]/30">Alpine.js</span>
+            </div>
+            <div class="relative z-10">
+              <div class="w-12 h-12 rounded-xl bg-[#eddccb] border border-[#c07a3e]/30 flex items-center justify-center mb-3">
+                <i data-lucide="activity" class="w-6 h-6 text-[#9c5725]"></i>
+              </div>
+              <h3 class="text-xl font-bold text-[#2a1a10]">KIU Sports Gala Portal</h3>
+              <p class="text-xs text-[#8a471b] font-mono mt-0.5">Live Tournament Management System</p>
+            </div>
+          </div>
+
+          <!-- Card Body -->
+          <div class="p-6 flex flex-col flex-1 space-y-4">
+            <p class="text-[#543e32] text-sm leading-relaxed">
+              A tournament management and <strong class="text-[#9c5725]">live scoring portal</strong> built for KIU Sports Gala. Features real-time match score updates, tournament bracket visualization, dynamic points table computations, and official report exports.
+            </p>
+
+            <ul class="space-y-1.5 text-xs text-[#6e5343]">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Real-time live match score updates</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Tournament bracket &amp; knockout visualization</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Dynamic points table &amp; standings computation</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Official report exports (PDF / printable)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-[#9c5725] shrink-0"></i>
+                <span>Tailwind CSS + Alpine.js interactive UI</span>
+              </li>
+            </ul>
+
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#9c5725] text-xs font-mono border border-[#b97e51]/25">Laravel 12</span>
+              <span class="px-2 py-0.5 rounded bg-[#f7ebd9] text-[#9c5725] text-xs font-mono border border-[#e5ba73]/25">Tailwind CSS</span>
+              <span class="px-2 py-0.5 rounded bg-[#eddccb] text-[#f6d5a8] text-xs font-mono border border-[#844e2d]/35">Alpine.js</span>
+              <span class="px-2 py-0.5 rounded bg-[#f4eae0] text-[#543e32] border border-[#dfcebc] text-xs font-mono border border-[#decab6]">PHP</span>
+            </div>
+
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded-full bg-[#eddccb] text-[#8a471b] text-[10px] font-semibold uppercase tracking-wider border border-[#b97e51]/20">Laravel Web</span>
+              <span class="px-2 py-0.5 rounded-full bg-[#684c37]/30 text-[#dec0a7] text-[10px] font-semibold uppercase tracking-wider border border-[#684c37]/30">KIU Project</span>
+            </div>
+          </div>
+
+          <div class="px-6 py-4 border-t border-[#decab6] bg-[#f4ebe0] flex items-center justify-between gap-3">
+            <a href="https://github.com/Saniya378/kiu_sports-gala" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#9c5725] hover:text-[#2a1a10] text-sm font-semibold border border-[#decab6] hover:border-[#b97e51] transition-all">
+              <i data-lucide="github" class="w-4 h-4"></i> View on GitHub
+            </a>
+            <span class="text-[10px] font-mono text-[#7d6556]">Laravel 12</span>
+          </div>
+        </div>
+
+        <!-- =====================================================
+             "No Results" Empty State (shown via JS when needed)
+             ===================================================== -->
+        <div id="noResultsCard" class="hidden col-span-full py-16 text-center">
+          <div class="w-16 h-16 rounded-2xl bg-[#fefcf9] border border-[#decab6] flex items-center justify-center mx-auto mb-4">
+            <i data-lucide="search-x" class="w-8 h-8 text-[#7d6556]"></i>
+          </div>
+          <h3 class="text-lg font-bold text-[#2a1a10] mb-2">No projects in this category</h3>
+          <p class="text-sm text-[#7d6556]">Try selecting a different filter above.</p>
+        </div>
+
+      </div>
+
+      <!-- GitHub CTA Banner -->
+      <div class="mt-16 relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#eddccb] via-[#f7ebe0] to-[#eddccb] border border-[#decab6] p-8 text-center">
+        <!-- Decorative glows -->
+        <div class="absolute top-0 left-1/4 w-48 h-24 bg-[#b97e51]/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 right-1/4 w-48 h-24 bg-[#f3c68f]/30 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#eddccb] border border-[#d9c4af] text-[#9c5725] text-xs font-medium mb-4">
+            <i data-lucide="github" class="w-3.5 h-3.5"></i>
+            Open Source on GitHub
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-[#2a1a10] mb-3">
+            All projects are publicly available
+          </h2>
+          <p class="text-[#6e5343] text-sm max-w-xl mx-auto mb-6">
+            Browse the full source code, fork, star, or raise issues on any project. I'm always open to collaboration and feedback from the developer community.
+          </p>
+          <div class="flex flex-wrap items-center justify-center gap-4">
+            <a href="https://github.com/Saniya378" target="_blank" rel="noopener noreferrer"
+               class="px-6 py-3 rounded-xl bg-gradient-to-r from-[#9b5826] to-[#b57238] text-white font-bold hover:brightness-110 shadow-lg shadow-[#844e2d]/30 transition-all flex items-center gap-2 text-sm">
+              <i data-lucide="github" class="w-4 h-4"></i>
+              Visit GitHub Profile
+            </a>
+            <a href="contact.html"
+               class="px-6 py-3 rounded-xl bg-[#fbf7f2] border border-[#dac5b0] hover:border-[#b97e51] text-[#f5ede6] hover:text-[#9c5725] font-semibold transition-all flex items-center gap-2 text-sm">
+              <i data-lucide="mail" class="w-4 h-4 text-[#9c5725]"></i>
+              Contact / Collaborate
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-[#decab6] bg-[#ebe0d1] text-[#7d6556] text-xs sm:text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div>
+        <span class="text-[#2a1a10] font-semibold">&copy; 2026 Saniya Zahra.</span> All rights reserved. Built with clean HTML, Tailwind CSS &amp; Vanilla JS.
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="about.html" class="hover:text-[#2a1a10] transition-colors">About</a>
+        <a href="skills.html" class="hover:text-[#2a1a10] transition-colors">Skills</a>
+        <a href="projects.html" class="hover:text-[#2a1a10] transition-colors">Projects</a>
+        <a href="education.html" class="hover:text-[#2a1a10] transition-colors">Education</a>
+        <a href="contact.html" class="hover:text-[#2a1a10] transition-colors">Contact</a>
+        <a href="#" class="p-2 rounded-lg bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#9c5725] border border-[#decab6] transition-colors" title="Back to top">
+          <i data-lucide="arrow-up" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Connect Button -->
+  <a href="https://wa.me/923555801151?text=Hi%20Saniya,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="fixed bottom-6 left-6 z-40 px-4 py-3 rounded-full bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white font-bold shadow-xl shadow-black/50 flex items-center gap-2 transition-all hover:scale-105 animate-float-wp group"
+     title="Chat directly on WhatsApp">
+    <i data-lucide="message-circle" class="w-5 h-5 fill-white"></i>
+    <span class="text-xs sm:text-sm font-semibold hidden sm:inline">WhatsApp Chat</span>
+    <span class="flex h-2 w-2 relative">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+    </span>
+  </a>
+
+  <!-- Toast Notification Alert -->
+  <div id="toast" class="hidden fixed bottom-6 right-6 z-50 bg-[#fefcf9] text-[#2a1a10] border border-[#9b5826]/40 shadow-2xl rounded-xl px-5 py-3.5 flex items-center gap-3 backdrop-blur-xl">
+    <div class="w-2.5 h-2.5 rounded-full bg-[#9b5826] animate-ping"></div>
+    <span id="toastMessage" class="text-sm font-medium">Notification message</span>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script src="script.js"></script>
+
+  <!-- Inline Project Filter Script -->
+  <script>
+    (function () {
+      // ── Project Filter Logic ───────────────────────────────────────────────
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const projectCards = document.querySelectorAll('#projectsGrid .project-card');
+      const noResults = document.getElementById('noResultsCard');
+
+      function applyFilter(filter) {
+        let visibleCount = 0;
+
+        projectCards.forEach(card => {
+          const categories = card.getAttribute('data-category') || '';
+          const isMatch = filter === 'all' || categories.split(' ').includes(filter);
+
+          if (isMatch) {
+            card.style.display = '';
+            // Trigger a subtle re-entrance animation
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(12px)';
+            requestAnimationFrame(() => {
+              card.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
+              card.style.opacity = '1';
+              card.style.transform = 'translateY(0)';
+            });
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Show / hide empty state
+        if (noResults) {
+          noResults.classList.toggle('hidden', visibleCount > 0);
+        }
+      }
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Update active state
+          filterBtns.forEach(b => {
+            b.classList.remove(
+              'active', 'bg-gradient-to-r', 'from-[#c07a3e]', 'to-[#b97e51]',
+              'text-white', 'border-[#c07a3e]', '!text-white'
+            );
+            b.classList.add('bg-[#fefcf9]', 'text-[#6e5343]', 'border-[#decab6]');
+          });
+
+          btn.classList.remove('bg-[#fefcf9]', 'text-[#6e5343]', 'border-[#decab6]');
+          btn.classList.add(
+            'active',
+            'bg-gradient-to-r', 'from-[#c07a3e]', 'to-[#b97e51]',
+            '!text-white', 'border-[#c07a3e]', 'font-bold'
+          );
+
+          applyFilter(btn.getAttribute('data-filter'));
+        });
+      });
+
+      // Apply active class styling on the initial active button
+      const initialActive = document.querySelector('.filter-btn.active');
+      if (initialActive) {
+        initialActive.classList.remove('bg-[#fefcf9]', 'text-[#6e5343]', 'border-[#decab6]');
+        initialActive.classList.add(
+          'bg-gradient-to-r', 'from-[#c07a3e]', 'to-[#b97e51]',
+          '!text-white', 'border-[#c07a3e]', 'font-bold'
+        );
+      }
+
+      // ── Scroll Progress Bar ────────────────────────────────────────────────
+      const progressBar = document.getElementById('scrollProgressBar');
+      if (progressBar) {
+        window.addEventListener('scroll', () => {
+          const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+          const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+          progressBar.style.width = progress + '%';
+        }, { passive: true });
+      }
+
+      // ── Navbar Scroll Styling ──────────────────────────────────────────────
+      const navbar = document.getElementById('navbar');
+      if (navbar) {
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 20) {
+            navbar.classList.add('bg-[#f8f4ee]/95', 'backdrop-blur-md', 'border-b', 'border-[#decab6]', 'shadow-md');
+          } else {
+            navbar.classList.remove('bg-[#f8f4ee]/95', 'backdrop-blur-md', 'border-b', 'border-[#decab6]', 'shadow-md');
+          }
+        }, { passive: true });
+      }
+
+      // ── Mobile Menu Toggle ─────────────────────────────────────────────────
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+
+      // ── Lucide Icons Init ──────────────────────────────────────────────────
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+    })();
+  </script>
+
+</body>
+</html>
