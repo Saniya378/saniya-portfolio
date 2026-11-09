@@ -638,11 +638,17 @@
 
   <!-- Footer -->
   <footer class="py-8 border-t border-[#decab6] bg-[#ebe0d1] text-[#7d6556] text-xs sm:text-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col items-center justify-center gap-3 text-center">
-      <div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <!-- Left spacer for balancing center alignment -->
+      <div class="hidden sm:block w-28"></div>
+
+      <!-- Centered Copyright Text -->
+      <div class="text-center">
         <span class="text-[#2a1a10] font-semibold">&copy; 2026 Saniya Zahra.</span> All rights reserved. Built with clean HTML, Tailwind CSS &amp; Vanilla JS.
       </div>
-      <div>
+
+      <!-- Right Corner Back to Top Button -->
+      <div class="w-full sm:w-28 flex justify-center sm:justify-end">
         <a href="#"
           class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-[#fbf7f2] hover:bg-[#eee1d1] text-[#9c5725] border border-[#decab6] text-xs font-semibold shadow-sm transition-all hover:scale-105"
           title="Back to top">
